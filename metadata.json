@@ -1,0 +1,6 @@
+{
+  "name": "অনুভূতি · A Cinematic Love Story",
+  "description": "A deeply romantic, emotional and cinematic Bangla love story webpage dedicated to a special person.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
