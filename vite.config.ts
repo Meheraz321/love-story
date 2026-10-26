@@ -1,10 +1,12 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import {defineConfig} from 'vite';
+import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
+    // গিটহাবে সাব-ডিরেক্টরিতে সাইট রান করার জন্য বেস পাথ যুক্ত করা হলো
+    base: '/love-story/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
